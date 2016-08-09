@@ -3,17 +3,22 @@ $(document).ready(function() {
 
   $('body').css('background-color', 'red');
 
-});
-
     //Checking account deposit function
 
       //On click of the depositChecking button
+      //Get value from the amountChecking input field
 
-        //Get value from the amountChecking input field
+      $('#depositChecking').click( function (){
+        alert('hello');
+      });
+
+
+
+
 
         //Take that value and add it to the existing value in the checkingBalance div
 
-    //Checking account withdrawl funtion
+    //Checking account withdrawl function
 
       //On click of the withdrawChecking button
 
@@ -46,3 +51,5 @@ $(document).ready(function() {
 // Bonus-- get the two accounts to work with each other and allow for overdraft protection
 
 // Double Bonus-- This isnt very DRY.  Using the keyword "this" see if you can make the withdraw and deposit functions work for both accounts
+
+});
