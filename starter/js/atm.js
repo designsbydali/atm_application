@@ -7,16 +7,19 @@ $(document).ready(function() {
 
       //On click of the depositChecking button
       //Get value from the amountChecking input field
+      //Take that value and add it to the existing value in the checkingBalance div
 
       $('#depositChecking').click( function (){
-        alert('hello');
+        $('#amountChecking').val('');
+        // alert('hello');
+
       });
 
 
 
 
 
-        //Take that value and add it to the existing value in the checkingBalance div
+
 
     //Checking account withdrawl function
 
